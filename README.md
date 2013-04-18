@@ -1,6 +1,6 @@
 # ObjectSpaceDiff
 
-TODO: Write a gem description
+Lists new objects left in global ObjectSpace after yielding a block
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+use as module method:
+ObjectSpaceDiff.puts_changes(target=$stdout)
+or
+include ObjectSpaceDiff in your code and use instance method as needed.
+
 
 ## Contributing
 

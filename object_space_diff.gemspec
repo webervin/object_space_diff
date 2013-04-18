@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = ObjectSpaceDiff::VERSION
   gem.authors       = ["Ervin Weber"]
   gem.email         = ["webervin@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Gem helps analyze object space before and after yielding a block"
+  gem.summary       = "Gives insight to code leaks or unnecessary string initialization"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
