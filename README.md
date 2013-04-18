@@ -21,8 +21,11 @@ Or install it yourself as:
 use as module method:
 ObjectSpaceDiff.puts_changes(target=$stdout)
 or
-include ObjectSpaceDiff in your code and use instance method as needed.
 
+include ObjectSpaceDiff in your code and use instance methods as needed.
+
+ * if $DEBUG is set then also internal variables are included in output.
+ * if $DEBUG is not set then also block output value is not included in output.
 
 ## Contributing
 
